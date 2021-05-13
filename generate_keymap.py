@@ -14,7 +14,7 @@ CHAR_MAP = {
     "(": "LS(N9)",
     ")": "LS(N0)",
     "-": "KP_MINUS",
-    "_": "LS(MINUS)",
+    "\_": "LS(MINUS)",
     "=": "EQUAL",
     "+": "LS(EQUAL)",
     "[": "LBKT",
@@ -119,16 +119,6 @@ class DtsiKeymap(object):
         )
         self.layers.append("\n".join(layer))
 
-    def map_space_separated_label(self, label):
-        parts = label.split(" ")
-        if len(parts) != 2:
-            return None
-        behavior_name = f"custom{len(self.behaviors)}"
-        self.behaviors.append(
-            custom_key_behavior(behavior_name, map_char(parts[0]), map_char(parts[1]))
-        )
-        return f"&{behavior_name}"
-
     def map_simple_label(self, label):
         char = map_char(label)
         if char:
@@ -140,8 +130,6 @@ class DtsiKeymap(object):
             zmk = "&trans"
         elif label.startswith("&") and len(label) > 1:
             zmk = label
-        elif " " in label:
-            zmk = self.map_space_separated_label(label)
         else:
             zmk = self.map_simple_label(label)
 

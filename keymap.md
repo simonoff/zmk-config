@@ -15,13 +15,13 @@ commonly used characters in day-to-day writing.
 All modifier and layer change keys are on the thumb keys via hold-tap keys.
 Hold to trigger the modifier, tap to generate the key listed in the row below.
 
-|     |     |     |      |     |     |     |     |      |     |      |
-| --- | --- | --- | ---- | --- | --- | --- | --- | ---- | --- | ---- |
-| Q   | W   | F   | P    | G   |     | J   | L   | U    | Y   | \* - |
-| A   | R   | S   | T    | D   |     | H   | N   | E    | I   | O    |
-| Z   | X   | C   | V    | B   |     | K   | M   | , ?  | . ! | '    |
-|     |     | alt | shft | cmd |     | lwr | rse | ctrl |     |      |
-|     |     | ESC |      | RET |     | TAB | SPC | BKSP |     |      |
+|     |     |     |      |     |     |     |     |      |     |     |
+| --- | --- | --- | ---- | --- | --- | --- | --- | ---- | --- | --- |
+| Q   | W   | F   | P    | G   |     | J   | L   | U    | Y   | -   |
+| A   | R   | S   | T    | D   |     | H   | N   | E    | I   | O   |
+| Z   | X   | C   | V    | B   |     | K   | M   | ,    | .   | '   |
+|     |     | alt | shft | cmd |     | lwr | rse | ctrl |     |     |
+|     |     | ESC |      | RET |     | TAB | SPC | BKSP |     |     |
 
 ## Raise Layer (Navigation + Numbers)
 
@@ -40,9 +40,9 @@ that makes sense for use when writing code.
 
 |     |     |     |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     | @   | $   | %   |     | \_  | &   | ^   |     |     |
-|     | <   | [   | (   | {   |     | :   | ;   | =   | +   |     |
-|     | >   | ]   | )   | }   |     | \   | \|  | /   | #   |     |
+|     | ^   | @   | $   | %   |     | &   | \   | \|  | /   |     |
+|     | <   | [   | (   | {   |     | \_  | :   | ;   | =   | +   |
+|     | >   | ]   | )   | }   |     | \*  | #   | ?   | !   | "   |
 |     |     |     |     |     |     |     | adj |     |     |     |
 |     |     |     |     |     |     |     |     |     |     |     |
 

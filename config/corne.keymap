@@ -27,30 +27,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-        custom0: custom0 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "Generated Behavior custom0";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N8)>, <&kp KP_MINUS>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
-    
-        custom1: custom1 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "Generated Behavior custom1";
-            #binding-cells = <0>;
-            bindings = <&kp COMMA>, <&kp LS(FSLH)>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
-    
-        custom2: custom2 {
-            compatible = "zmk,behavior-mod-morph";
-            label = "Generated Behavior custom2";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>, <&kp LS(N1)>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-        };
-    
     };
 
         keymap {
@@ -58,9 +34,9 @@
 
                 default_layer {
                         bindings = <
-&trans &kp Q &kp W &kp F &kp P &kp G &kp J &kp L &kp U &kp Y &custom0 &trans
+&trans &kp Q &kp W &kp F &kp P &kp G &kp J &kp L &kp U &kp Y &kp KP_MINUS &trans
 &trans &kp A &kp R &kp S &kp T &kp D &kp H &kp N &kp E &kp I &kp O &trans
-&trans &kp Z &kp X &kp C &kp V &kp B &kp K &kp M &custom1 &custom2 &kp SQT &trans
+&trans &kp Z &kp X &kp C &kp V &kp B &kp K &kp M &kp COMMA &kp DOT &kp SQT &trans
 &mt_ LALT ESC &kp LSHFT &mt_ LGUI RET &lt_ 2 TAB &lt_ 1 SPC &mt_ LCTRL BKSP                  
                         >;
                 };
@@ -76,9 +52,9 @@
 
                 raise_layer {
                         bindings = <
-&trans &trans &trans &kp LS(N2) &kp LS(N4) &kp LS(N5) &trans &kp LS(N7) &kp LS(N6) &trans &trans &trans
-&trans &trans &kp LS(COMMA) &kp LBKT &kp LS(N9) &kp LS(LBKT) &kp LS(SEMI) &kp SEMI &kp EQUAL &kp LS(EQUAL) &trans &trans
-&trans &trans &kp LS(DOT) &kp RBKT &kp LS(N0) &kp LS(RBKT) &kp BSLH &kp BSLH &trans &kp FSLH &kp LS(N3) &trans
+&trans &trans &kp LS(N6) &kp LS(N2) &kp LS(N4) &kp LS(N5) &kp LS(N7) &kp BSLH &kp BSLH &trans &kp FSLH &trans
+&trans &trans &kp LS(COMMA) &kp LBKT &kp LS(N9) &kp LS(LBKT) &kp LS(MINUS) &kp LS(SEMI) &kp SEMI &kp EQUAL &kp LS(EQUAL) &trans
+&trans &trans &kp LS(DOT) &kp RBKT &kp LS(N0) &kp LS(RBKT) &kp LS(N8) &kp LS(N3) &kp LS(FSLH) &kp LS(N1) &kp LS(SQT) &trans
 &trans &trans &trans &trans &mo 3 &trans
                         >;
                 };

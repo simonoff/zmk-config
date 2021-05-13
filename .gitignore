@@ -4,3 +4,4 @@ modules
 tools
 build
 .west
+.DS_Store
