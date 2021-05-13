@@ -1,4 +1,7 @@
-# Custom Corne Keyboard Layout
+# Thumb-Mod Corne Keyboard Layout
+
+This is a keyboard layout for the 3x5 variant of the corne keyboard, with all
+modifiers on thumb keys via hold-tap keys.
 
 The keyboard layout is specified in markdown, to make it easier to read and write
 ([prettier](https://prettier.io) can take care of aligning the table columns).
@@ -15,11 +18,11 @@ Hold to trigger the modifier, tap to generate the key listed in the row below.
 
 |     |     |     |      |     |     |     |     |      |     |      |
 | --- | --- | --- | ---- | --- | --- | --- | --- | ---- | --- | ---- |
-| Q   | W   | F   | P    | G   |     | Y   | U   | I    | O   | \* - |
+| Q   | W   | F   | P    | G   |     | J   | L   | U    | Y   | \* - |
 | A   | R   | S   | T    | D   |     | H   | N   | E    | I   | O    |
-| Z   | X   | C   | V    | B   |     | K   | M   | , '  | . " | ! ?  |
+| Z   | X   | C   | V    | B   |     | K   | M   | , ?  | . ! | '    |
 |     |     | alt | shft | cmd |     | lwr | rse | ctrl |     |      |
-|     |     | ESC | TAB  | RET |     |     | SPC | BKSP |     |      |
+|     |     | ESC |      | RET |     | TAB | SPC | BKSP |     |      |
 
 ## Raise Layer (Navigation + Numbers)
 
