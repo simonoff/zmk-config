@@ -1,7 +1,6 @@
-# Thumb-Mod Corne Keyboard Layout
+# Custom Corne Keyboard Layout
 
-This is a keyboard layout for the 3x5 variant of the corne keyboard, with all
-modifiers on thumb keys via hold-tap keys.
+![](keymap.png)
 
 The keyboard layout is specified in markdown, to make it easier to read and write
 ([prettier](https://prettier.io) can take care of aligning the table columns).
